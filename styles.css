@@ -219,6 +219,10 @@ div.bottom-bottom ul li a:hover {
         display: block;
         margin-right: 0;
     }
+
+    div.top-bottom {
+        display: block;
+    }
 }
 
 @media (max-width: 640px) {
