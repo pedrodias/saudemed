@@ -19,20 +19,26 @@ div.wrapper {
     height: 100%;
 }
 
+
 div.top {
     flex: 0 1 330px;
     background: white;
 }
 
+
+
 div.top .logo {
     margin-top: 75px;
 }
+
+
 
 div.top .description {
     color: #14a6d3;
     font-size: 28px;
     margin-top: 32px;
 }
+
 
 div.bottom {
     flex: 1 1 auto;
@@ -50,6 +56,7 @@ div.bottom .development {
     padding-top: 45px;
     padding-bottom: 30px;
 }
+
 
 ul,li {
     padding: 0;
@@ -92,6 +99,11 @@ a.btn {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+a.btn {
+    padding: 25px 40px;
+    margin: 15px 20px;
 }
 
 a.btn:hover {
@@ -142,6 +154,36 @@ div.bottom-bottom ul li a {
 
 div.bottom-bottom ul li a:hover {
     text-decoration: underline;
+}
+
+@media (max-height: 790px) {
+    div.top {
+        flex: 0 1 200px;
+    }
+
+    div.top .logo {
+        margin-top: 30px;
+    }
+
+    div.top .description {
+        margin-top: 12px;
+    }
+
+    div.top .logo img {
+        width: 400px;
+    }
+
+
+    div.bottom .group {
+        margin-bottom: 20px;
+    }
+
+    div.bottom .development {
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
 }
 
 @media (max-width: 960px) {
