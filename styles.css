@@ -155,7 +155,8 @@ div.bottom-bottom ul li a:hover {
     }
 
     div.top .logo img {
-        max-width: 300px;
+        max-width: 100%;
+        width: 300px;
     }
 
     div.top {
@@ -175,6 +176,10 @@ div.bottom-bottom ul li a:hover {
 }
 
 @media (max-width: 640px) {
+    div.top .logo img {
+        max-width: 100%;
+        width: 200px;
+    }
     div.bottom .development {
         font-size: 25px;
         padding-top: 20px;
